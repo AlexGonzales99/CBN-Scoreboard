@@ -1,0 +1,10 @@
+C:\Users\Alex\source\repos\Scoreboard\Scoreboard\bin\Debug\Scoreboard.exe.config
+C:\Users\Alex\source\repos\Scoreboard\Scoreboard\bin\Debug\Scoreboard.exe
+C:\Users\Alex\source\repos\Scoreboard\Scoreboard\bin\Debug\Scoreboard.pdb
+C:\Users\Alex\source\repos\Scoreboard\Scoreboard\obj\Debug\Scoreboard.csprojAssemblyReference.cache
+C:\Users\Alex\source\repos\Scoreboard\Scoreboard\obj\Debug\Scoreboard.Properties.Resources.resources
+C:\Users\Alex\source\repos\Scoreboard\Scoreboard\obj\Debug\Scoreboard.csproj.GenerateResource.cache
+C:\Users\Alex\source\repos\Scoreboard\Scoreboard\obj\Debug\Scoreboard.csproj.CoreCompileInputs.cache
+C:\Users\Alex\source\repos\Scoreboard\Scoreboard\obj\Debug\Scoreboard.exe
+C:\Users\Alex\source\repos\Scoreboard\Scoreboard\obj\Debug\Scoreboard.pdb
+C:\Users\Alex\source\repos\Scoreboard\Scoreboard\obj\Debug\Scoreboard.form1.resources
