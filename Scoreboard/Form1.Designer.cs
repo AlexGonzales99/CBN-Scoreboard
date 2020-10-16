@@ -58,6 +58,7 @@
             // 
             // image1
             // 
+            this.image1.BackColor = System.Drawing.Color.Transparent;
             this.image1.Location = new System.Drawing.Point(3, 370);
             this.image1.Name = "image1";
             this.image1.Size = new System.Drawing.Size(319, 68);
@@ -134,7 +135,7 @@
             this.button2.TabIndex = 7;
             this.button2.Text = "+1";
             this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            this.button2.Click += new System.EventHandler(this.plus_one_away);
             // 
             // pictureBox1
             // 
@@ -173,8 +174,8 @@
             this.awayTeamResult.AutoSize = true;
             this.awayTeamResult.BackColor = System.Drawing.Color.Transparent;
             this.awayTeamResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.awayTeamResult.ForeColor = System.Drawing.Color.Black;
-            this.awayTeamResult.Location = new System.Drawing.Point(282, 389);
+            this.awayTeamResult.ForeColor = System.Drawing.Color.White;
+            this.awayTeamResult.Location = new System.Drawing.Point(267, 389);
             this.awayTeamResult.Name = "awayTeamResult";
             this.awayTeamResult.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.awayTeamResult.Size = new System.Drawing.Size(30, 31);
@@ -237,7 +238,8 @@
             // 
             this.homeTeamResult.AutoSize = true;
             this.homeTeamResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.homeTeamResult.Location = new System.Drawing.Point(599, 389);
+            this.homeTeamResult.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.homeTeamResult.Location = new System.Drawing.Point(589, 389);
             this.homeTeamResult.Name = "homeTeamResult";
             this.homeTeamResult.Size = new System.Drawing.Size(30, 31);
             this.homeTeamResult.TabIndex = 19;
@@ -268,7 +270,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(804, 450);
+            this.ClientSize = new System.Drawing.Size(797, 464);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.homeTeamResult);

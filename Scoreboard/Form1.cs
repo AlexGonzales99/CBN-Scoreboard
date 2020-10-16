@@ -17,6 +17,16 @@ namespace Scoreboard
         public form1()
         {
             InitializeComponent();
+            var pos = this.PointToScreen(awayTeamResult.Location);
+            pos = image1.PointToClient(pos);
+            awayTeamResult.Parent = image1;
+            awayTeamResult.Location = pos;
+            awayTeamResult.BackColor = Color.Transparent;
+            var pos2 = this.PointToScreen(homeTeamResult.Location);
+            pos2 = awayTeam.PointToClient(pos2);
+            homeTeamResult.Parent = awayTeam;
+            homeTeamResult.Location = pos2;
+            homeTeamResult.BackColor = Color.Transparent;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -94,7 +104,7 @@ namespace Scoreboard
            
         }
 
-        private void button2_Click_1(object sender, EventArgs e)// + 1 Button
+        private void plus_one_away(object sender, EventArgs e)// + 1 Button
         {
 
             Button button = (Button)sender;
@@ -172,7 +182,9 @@ namespace Scoreboard
 
         private void awayTeamResult_Click_1(object sender, EventArgs e)
         {
-           // awayTeamResult.BackColor = Color.Transparent;
+            InitializeComponent();
+            var pos = this.PointToScreen(awayTeamResult.Location);
+            // awayTeamResult.BackColor = Color.Transparent;
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -211,7 +223,7 @@ namespace Scoreboard
 
         private void label2_Click(object sender, EventArgs e)
         {
-
+            label1.BackColor = System.Drawing.Color.Transparent; 
         }
 
         private void button8_Click(object sender, EventArgs e)
